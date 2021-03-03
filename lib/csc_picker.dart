@@ -181,6 +181,7 @@ class _CSCPickerState extends State<CSCPicker> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         widget.layout == Layout.vertical
             ? Column(
