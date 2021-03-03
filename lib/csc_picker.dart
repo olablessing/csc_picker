@@ -184,7 +184,7 @@ class _CSCPickerState extends State<CSCPicker> {
       children: [
         widget.layout == Layout.vertical
             ? Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Text('Country'),
                   countryDropdown(),
